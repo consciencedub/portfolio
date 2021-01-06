@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Steve Farrar</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="script.js">
+
+      <!--FontAwesoem-->
+      <script
+      src="https://kit.fontawesome.com/22054584cb.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+
+        <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+     
+
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse " id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-muted">About</h4>
+          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        </div> -->
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-1">Other work</h4>
+          <ul class="list-unstyled">
+            <li><i class="far fa-eye fa-2x"></i><a href="http://farrarsteve.com/" class="text-muted">Experience my creative portfolio</a></li>
+            <li> <i class="fab fa-dribbble fa-2x"></i><a href="https://dribbble.com/stevefarrar" class="text-muted"></i>Follow me on Dribbble</a></li>
+            <li><i class="fab fa-soundcloud fa-2x"></i><a href="https://soundcloud.com/colourbydeluxe" class="text-muted"></i>Listen to my music</a></li>
+
+
+          </ul>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-1">Contact</h4>
+          <ul class="list-unstyled">
+            <li><i class="fab fa-linkedin-in fa-2x"></i><a href="https://www.linkedin.com/in/farrarsteve/" class="text-muted">Find Me on Linked In</a></li>
+            <li><i class="fab fa-github fa-2x"></i></i><a href="https://github.com/consciencedub/" class="text-muted">Check out My coding</a></li>
+            <li><i class="fas fa-envelope-open-text fa-2x"></i></i><a href="mailto:stephen@farrarsteve.com" class="text-muted">Email me</a></li>
+            
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark nav-color shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><h4>About</h4></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<main>
+
+  <section class="pt-5 text-center container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Steve Farrar</h1>
+        <p class="lead text-muted">I'm a creative digital thinker currently exploring HTML/CSS/JQUERY at <a href="https://www.upstreamcoding.com/">Upstream coding</a>. Below are the projects I've completed as a web developer.     </p>
+          <p>              
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5">
+    
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/modal-copy-3.png" width="100%" class="card-img-top" alt="card layout visual">
+
+            <div class="card-body">
+              <p class="card-text"><h3>Expandable Sidebar</h3>Built a sidebar component with expanding sub-menus, dark-mode switcher, a search bar, jQuery event listeners and DOM manipulation, as well as CSS variables and image filters</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-outline-secondary" href="https://expandable-sidebar-upstream.glitch.me" role="button">Inspect the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-md">
+              <img src="images/modal.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"> <h3>Go Live Modal</h3><p>Create a modal and use z-index to place images per  provided layout. Launch that modal from a button</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://consciencedub.github.io/web-L1-Go-Live/" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/gi-haul.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>G.I. Haul Landing Page</h3>Am in ex imperdiet justo tincidunt egesta. Uporttitor urna ac augue cursus tincidunt sit amet sed orci</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://consciencedub.github.io/gi-haul/" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/cool-shades.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>Peppers Landing Page</h3> Am in ex imperdiet justo tincidunt egesta. Uporttitor urna ac augue cursus tincidunt sit amet sed orci</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://consciencedub.github.io/cool-shades/" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/course-modal.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>New Course Modal</h3> Use JQuery to launch a modal and allow for text input</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://consciencedub.github.io/course-modal/" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/modal-copy-2.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>Responsive Carousel</h3>The assignment was to create a responsive image carousel</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://image-gallery-2-upstream.glitch.me" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/z-index.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>Z-index Challenge</h3> Use the z-indexes to properly stack the ui item vertically </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://consciencedub.github.io/Web-L1/" role="button">Inspect the code</a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/z-index-3.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>Feedback Modal</h3>Match the ui design in code</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://consciencedub.github.io/feedback-modal/" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/to-do.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>To-do list</h3>This project uses JQuery. Items can be crossed out when completed, deleted, or new items can be added. Also uses Google fonts and Font Awesome</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://todo-jquery-020.glitch.me" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col">
+            <div class="card shadow-sm">
+              <img src="images/card-layout.png" width="100%" class="card-img-top" alt="card layout visual">
+  
+              <div class="card-body">
+                <p class="card-text"><h3>Game Card</h3>Match the UI design using HTML/CSS, FontAwesome and randomuser.me images</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-secondary" href="https://consciencedub.github.io/game-card/" role="button">Inspect the code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/single-price.png" width="100%" class="card-img-top" alt="card layout visual">
+
+            <div class="card-body">
+              <p class="card-text"><h3>Pricing Card</h3>Responsive ui using CSS grid</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-outline-secondary" href="https://single-price-grid-componentg.glitch.me" role="button">Inspect the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/landing page.png" width="100%" class="card-img-top" alt="card layout visual">
+
+            <div class="card-body">
+              <p class="card-text"><h3>Bootstrap Landing Page</h3>Match UI design with Bootstrap components</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-outline-secondary" href="https://upstream-product-landing-page.glitch.me/" role="button">Inspect the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/edit-tooltips.png" width="100%" class="card-img-top" alt="card layout visual">
+
+            <div class="card-body">
+              <p class="card-text"><h3>Edit Tool Tips</h3>Add rows and select rows using JQuesry</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-outline-secondary" href="https://upstream-edit-tooltips.glitch.me" role="button">Inspect the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/library-table.png" width="100%" class="card-img-top" alt="card layout visual">
+
+            <div class="card-body">
+              <p class="card-text"><h3>HTML Table Layout</h3>Match UI design with HTML tables</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-outline-secondary" href="https://upstream-product-landing-page.glitch.me/" role="button">Inspect the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1"> &copy; 2021 Steve Farrar</p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

@@ -1,0 +1,82 @@
+.bd-example-modal-lg {
+    height: 900px;
+}
+
+i.fas,
+i.far,
+i.fab {
+  /* color: white; */
+  margin-right: .25em;
+}
+
+.text-1 {
+    color: #CA4713;
+}
+/* a {
+    color:#5B6669;
+} */
+
+    H1 {
+    font-family: "Suez One", serif;
+    color: #C54622;--
+    ;
+}
+
+H3 {
+    font-family: "Suez One", serif;
+    color: #C54622;--
+    ;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbo {
+    background-color: #F7f6f6;
+}
+
+.fab {
+    background-color: #F7f6f6;
+}
+
+.nav-color {
+background: #959aa9;
+}
+
+/* Modify brand and text color */ 
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    background: #959aa9; 
+} 
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  .card-body {
+      height: 275px;
+  }
+
+
+
+#F7f6f6
+#8c855a
+#959aa9 Mantee
+#826678 
+#3f393e Thunder
+
+--dark: #CA4713
+--bright-1: #DBCC3B
+--bright-2: #F7E778
+--tone-1: #7DD585
+--tone-2: #0DB4B1
