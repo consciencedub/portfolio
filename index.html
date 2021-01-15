@@ -24,10 +24,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-      <!-- Bootstrap CSS -->
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
-
+     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
@@ -35,8 +32,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
 
-        <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -77,22 +72,22 @@
           <h4 class="text-muted">About</h4>
           <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
         </div> -->
-        <div class="col-sm-4 offset-md-1 py-4">
+        <div class="col py-4 about">
           <h4 class="text-1">Other work</h4>
           <ul class="list-unstyled">
-            <li><i class="far fa-eye fa-2x"></i><a href="http://farrarsteve.com/" class="text-muted">Experience my creative portfolio</a></li>
-            <li> <i class="fab fa-dribbble fa-2x"></i><a href="https://dribbble.com/stevefarrar" class="text-muted"></i>Follow me on Dribbble</a></li>
-            <li><i class="fab fa-soundcloud fa-2x"></i><a href="https://soundcloud.com/colourbydeluxe" class="text-muted"></i>Listen to my music</a></li>
+            <li><i  class="fab fa-eye fa"></i><a href="http://farrarsteve.com/" style class="text-muted">Creative portfolio</a></li>
+            <li> <i class="fab fa-dribbble fa"></i><a href="https://dribbble.com/stevefarrar" class="text-muted"></i>Follow me on Dribbble</a></li>
+            <li><i class="fab fa-soundcloud fa "></i><a href="https://soundcloud.com/colourbydeluxe" class="text-muted"></i>Listen to my music</a></li>
 
 
           </ul>
         </div>
-        <div class="col-sm-4 offset-md-1 py-4">
+        <div class="col py-4">
           <h4 class="text-1">Contact</h4>
           <ul class="list-unstyled">
-            <li><i class="fab fa-linkedin-in fa-2x"></i><a href="https://www.linkedin.com/in/farrarsteve/" class="text-muted">Find Me on Linked In</a></li>
-            <li><i class="fab fa-github fa-2x"></i></i><a href="https://github.com/consciencedub/" class="text-muted">Check out My coding</a></li>
-            <li><i class="fas fa-envelope-open-text fa-2x"></i></i><a href="mailto:stephen@farrarsteve.com" class="text-muted">Email me</a></li>
+            <li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/farrarsteve/" class="text-muted">Find Me on Linked In</a></li>
+            <li><i class="fab fa-github fa"></i></i><a href="https://github.com/consciencedub/" class="text-muted">Check out My coding</a></li>
+            <li><i class="fab fa-envelope-open-text fa"></i></i><a href="mailto:stephen@farrarsteve.com" class="text-muted">Email me</a></li>
             
 
           </ul>
@@ -105,8 +100,8 @@
       <a href="#" class="navbar-brand d-flex align-items-center">
       </a>
       
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><h4>About Steve</h4></span>
+      <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <h4>About Steve</h4> 
       </button>
     </div>
   </div>
@@ -118,8 +113,8 @@
   <section class="pt-5 text-center container">
     <div class="row">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Steve Farrar</h1>
-        <p class="lead text-muted">I'm a creative digital thinker currently exploring HTML/CSS/JQUERY at <a href="https://www.upstreamcoding.com/">Upstream coding</a>. Below are the projects I've completed as a web developer.     </p>
+        <h1 class="">Steve Farrar</h1>
+        <p class="lead">I'm a creative digital thinker currently exploring HTML/CSS/JQUERY & Bootstrap at <a id="upstream" href="https://www.upstreamcoding.com/">Upstream Coding.</a> Below are the projects I've completed as a web developer.     </p>
           <p>              
         </p>
       </div>
@@ -135,7 +130,7 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img src="images/modal-copy-3.png" width="100%" class="card-img-top" alt="card layout visual">
+            <img src="images/expandable.png" width="100%" class="card-img-top" alt="card layout visual">
 
             <div class="card-body">
               <p class="card-text"><h3>Expandable Sidebar</h3>Built a sidebar component with expanding sub-menus, dark-mode switcher, a search bar, jQuery event listeners and DOM manipulation, as well as CSS variables and image filters</p>
@@ -241,7 +236,7 @@
 
         <div class="col">
             <div class="card shadow-sm">
-              <img src="images/z-index-3.png" width="100%" class="card-img-top" alt="card layout visual">
+              <img src="images/feedback-modal.png" width="100%" class="card-img-top" alt="card layout visual">
   
               <div class="card-body">
                 <p class="card-text"><h3>Feedback Modal</h3>Match the ui design in code</p>
@@ -331,10 +326,27 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img src="images/library-table.png" width="100%" class="card-img-top" alt="card layout visual">
-
+            <div style="background-color: red">
+              <img src="images/library-table.png" width="100%" class="card-img-top" alt="card layout visual">
+            </div>
             <div class="card-body">
               <p class="card-text"><h3>HTML Table Layout</h3>Match UI design with HTML tables</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-outline-secondary" href="https://upstream-product-landing-page.glitch.me/" role="button">Inspect the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/image-placeholder.png" width="100%" class="card-img-top" alt="card layout visual">
+          </div>
+            <div class="card-body">
+             
+              <p class="card-text"><h3>Example card</h3>Match UI design with HTML tables</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a class="btn btn-outline-secondary" href="https://upstream-product-landing-page.glitch.me/" role="button">Inspect the code</a>
